@@ -1,0 +1,21 @@
+.menuWrapper {
+    @apply flex flex-col w-[215px] bg-mainBlack h-full pt-[40px] pl-[64px] gap-[110px]
+}
+
+.logo {
+    @apply cursor-pointer;
+    @apply hover:scale-110 transition-transform 
+}
+
+.navigation {
+    @apply flex flex-col gap-[28px]
+}
+
+.navIcon {
+    @apply flex cursor-pointer shrink-0 p-[5px];
+    @apply hover:scale-110 transition-transform 
+}
+
+.navigationWrapper {
+    @apply flex flex-col h-[800px] justify-between
+}
