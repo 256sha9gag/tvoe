@@ -1,0 +1,5 @@
+.raitingContainerLarge {
+    @apply flex justify-center items-center shrink-0 px-[22px] py-[14px] rounded-[12px];
+    @apply absolute top-[28px] left-[28px];
+    @apply text-white text-h5 bg-gradient-accent
+}

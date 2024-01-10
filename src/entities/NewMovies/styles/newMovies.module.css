@@ -1,0 +1,32 @@
+.sectionWrapper {
+    @apply flex flex-col overflow-hidden w-full bg-mainBlack gap-[24px]
+}
+
+.title {
+    @apply text-h1 text-white
+}
+
+.listWrapper {
+    @apply flex gap-[44px] overflow-x-scroll w-full h-fit mb-[10px]
+}
+
+.cardWrapper {
+    @apply flex shrink-0 h-fit flex-col gap-[20px] cursor-pointer
+}
+
+.cardImageWrapper {
+    @apply flex relative w-[406px] shrink-0 h-full border-4 border-transparent rounded-[20px]
+}
+
+.cardWrapper:hover .cardImageWrapper {
+    background: linear-gradient(159.31deg, #5712B1 23.59%, #2B6CFA 80.7%) border-box;
+    border: 4px solid transparent;
+}
+
+.cardImage {
+    @apply rounded-[20px]
+}
+
+.cardTitle {
+    @apply text-h5 text-white text-ellipsis
+}
